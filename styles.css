@@ -1,0 +1,39 @@
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #f5f4fa;
+}
+.button:hover {
+  background-color: #2196F3;
+}
+.footer {
+  background-color: #2f303a;
+  color: white;
+}
+.a {
+  color: white;
+}
+.background {
+  background-color: white;
+}
+.link1 {
+  color: #212121;
+}
+.link2 {
+  color: #757575;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color:#212121
+  
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+}
+.figure-title {
+  font-weight: 700;
+}
