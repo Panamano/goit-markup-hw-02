@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
+  <head class="tlo">
     <link rel="stylesheet" href="css\styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +16,7 @@
   <body>
     <!-- Nagłówek -->
     <header>
-      <div class="header container">
+      <div class="header">
         <!-- Nawigacja do innych stron -->
         <a class="navigation-logo" href="./index.html"
           >Web<span>Studio</span></a
@@ -31,34 +27,28 @@
           <li><a class="link1" href="/Kontakt">Kontakt</a></li>
         </ul>
         <ul class="header-contacts">
-          <li class="header-contacts-with-icon">
-            <div class="header-contacts-div">
-              <a class="link2" href="mailto:info@devstudio.com">
-                info@devstudio.com</a
-              >
-            </div>
+          <li>
+            <a class="link2" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-contacts-with-icon">
-            <div class="header-contacts-div">
-              <a class="link2" href="tel:+48111111111">
-                +48&nbsp111&nbsp111&nbsp111</a
-              >
-            </div>
-          </li>
+          <li><a class="link2" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </div>
     </header>
     <!-- Główna część strony -->
-    <main>
-      <section class="section">
-        <ul class="portfolio-buttons container">
+    <main class="background">
+      <section>
+        <ul class="portfolio-buttons">
           <li><button class="button">Wszystkie</button></li>
           <li><button class="button">Strony</button></li>
           <li><button class="button">Aplikacje</button></li>
           <li><button class="button">Dizajn</button></li>
           <li><button class="button">Marketing</button></li>
         </ul>
-        <ul class="main-cards container">
+      </section>
+      <section>
+        <ul class="main-cards">
           <li>
             <figure class="card">
               <img
@@ -69,7 +59,7 @@
               />
               <figcaption>
                 <h3 class="figure-title">Technocrack</h3>
-                <p class="figure-description">Strona internetowa</p>
+                <p>Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -83,7 +73,7 @@
               />
               <figcaption>
                 <h3 class="figure-title">Grafika New Orlean vs Golden Star</h3>
-                <p class="figure-description">Dizajn</p>
+                <p>Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -97,7 +87,7 @@
               />
               <figcaption>
                 <h3 class="figure-title">Restauracja Seafood</h3>
-                <p class="figure-description">Aplikacja</p>
+                <p>Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -111,7 +101,7 @@
               />
               <figcaption>
                 <h3 class="figure-title">Aplikacja</h3>
-                <p class="figure-description">Marketing</p>
+                <p>Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -125,7 +115,7 @@
               />
               <figcaption>
                 <h3 class="figure-title">Projekt Boxes</h3>
-                <p class="figure-description">Aplikacja</p>
+                <p>Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -139,7 +129,7 @@
               />
               <figcaption>
                 <h3 class="figure-title">Inspiration has no Borders</h3>
-                <p class="figure-description">Strona internetowa</p>
+                <p>Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -153,7 +143,7 @@
               />
               <figcaption>
                 <h3 class="figure-title">Magazyn Limited Edition</h3>
-                <p class="figure-description">Dizajn</p>
+                <p>Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -167,7 +157,7 @@
               />
               <figcaption>
                 <h3 class="figure-title">Projekt LAB</h3>
-                <p class="figure-description">Marketing</p>
+                <p>Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -181,7 +171,7 @@
               />
               <figcaption>
                 <h3 class="figure-title">Growing Business</h3>
-                <p class="figure-description">Aplikacja</p>
+                <p>Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -190,28 +180,24 @@
     </main>
     <!-- Stopka strony -->
     <footer class="footer">
-      <div class="footer-flex container">
-        <address class="address">
-          <ul class="">
-            <li>
-              <a class="footer-logo" href="./index.html"
-                >Web<span>Studio</span></a
-              >
-            </li>
-            <li class="footer-text">m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li class="footer-text">
-              <a class="footer-mail" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li class="footer-text">
-              <a class="footer-phone" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
+      <address class="address">
+        <ul>
+          <li>
+            <a class="footer-logo" href="./index.html"
+              >Web<span>Studio</span></a
+            >
+          </li>
+          <li class="footer-text">m. Warszawa, Aleje Jerozolimskie 21</li>
+          <li class="footer-text">
+            <a class="footer-mail" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="footer-text">
+            <a class="footer-phone" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>
